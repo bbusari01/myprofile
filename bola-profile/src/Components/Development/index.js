@@ -1,8 +1,9 @@
 import React from 'react';
 import mylogo from '../../assets/Boladale Busari.png'
 import './index.scss'
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 const Development = () => {
   return (
     <div className="development">
@@ -11,14 +12,11 @@ const Development = () => {
         <img src={mylogo} alt='logo' />
       </div>
 
-      <div>
+      <div className='intro'>
         <h2>👋 Hey, I'm BoladaleB</h2>
         <p>
-          Hi there! I'm actively working on this website to bring you something amazing.
+          I'm actively working on this website.
           If you have any questions, suggestions, or just want to say hello, feel free to get in touch.
-        </p>
-        <p>
-          I'm excited to share more with you as this website develops. Stay tuned for updates on new features and content.
         </p>
       </div>
 
@@ -28,22 +26,22 @@ const Development = () => {
         <ul>
           <li>
             <a href="mailto:boladalebusari@gmail.com" target="_blank" rel="noopener noreferrer">
-              Email
+            <FontAwesomeIcon icon={faEnvelope} /> Email
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/boladaleb/" target="_blank" rel="noopener noreferrer">
-              LinkedIn
+            <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
             </a>
           </li>
           <li>
             <a href="https://instagram.com/bbusari01?igshid=MmIzYWVlNDQ5Yg==" target="_blank" rel="noopener noreferrer">
-              Instagram
+            <FontAwesomeIcon icon={faInstagram} /> Instagram
             </a>
           </li>
           <li>
             <a href="https://github.com/bbusari01" target="_blank" rel="noopener noreferrer">
-              GitHub
+            <FontAwesomeIcon icon={faGithub} /> GitHub
             </a>
           </li>
         </ul>

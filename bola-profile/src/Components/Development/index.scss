@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: auto;
+    height: 100%;
     font-family: Arial, sans-serif;
 
 
@@ -23,18 +23,42 @@ body, html {
 
 
 .logo img {
-    max-width: 100px;
+    max-width: 200px;
     align-items: center;    
     display: block;
 }
 
+.intro{
+  margin: 20px;
+  font-size: 20px;
+  
+}
+
+.intro p{
+  height: auto;
+  width: 700px;
+}
+
+
+.social-links{
+  text-align: center;
+}
+
 .social-links ul {
   list-style: none;
-  padding: 0;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
 }
-  
+
+
 .social-links li {
-  margin-bottom: 5px;
+  margin: 40px;
 }
   
 .social-links a {
@@ -43,6 +67,8 @@ body, html {
 }
   
 .social-links a:hover {
-  text-decoration: underline;
+  color: black;
+  background-color: white;
+  
 }
   
