@@ -13,7 +13,7 @@ const Development = () => {
       </div>
 
       <div className='intro'>
-        <h2>👋 Hey, I'm BoladaleB</h2>
+        <h2>👋 Hey, I'm Boladale</h2>
         <p>
           I'm actively working on this website.
           If you have any questions, suggestions, or just want to say hello, feel free to get in touch.
@@ -22,7 +22,7 @@ const Development = () => {
 
       
       <div className="social-links">
-        <p>Connect with me:</p>
+        <h2>Connect with me...</h2>
         <ul>
           <li>
             <a href="mailto:boladalebusari@gmail.com" target="_blank" rel="noopener noreferrer">
