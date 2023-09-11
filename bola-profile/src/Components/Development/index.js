@@ -2,7 +2,7 @@ import React from 'react';
 import mylogo from '../../assets/Boladale Busari.png'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 const Development = () => {
   return (
@@ -32,11 +32,6 @@ const Development = () => {
           <li>
             <a href="https://www.linkedin.com/in/boladaleb/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
-            </a>
-          </li>
-          <li>
-            <a href="https://instagram.com/bbusari01?igshid=MmIzYWVlNDQ5Yg==" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faInstagram} /> Instagram
             </a>
           </li>
           <li>
